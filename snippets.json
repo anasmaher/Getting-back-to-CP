@@ -1,0 +1,114 @@
+{
+	"Main template": {
+		"prefix": "tmpmain",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"#define int int64_t",
+			"#define out(x) cout << (x) << '\\n'",
+			"",
+			"int32_t main(){",
+			"    ios::sync_with_stdio(0);",
+			"    cin.tie(0);",
+			"",
+			"    $0",
+			"}"
+		],
+		"description": "Single-test template"
+	},
+	"Multi-test template": {
+		"prefix": "tmpcases",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"#define int int64_t",
+			"#define out(x) cout << (x) << '\\n'",
+			"",
+			"void fun(){",
+			"    $0",
+			"}",
+			"",
+			"int32_t main(){",
+			"    ios::sync_with_stdio(0);",
+			"    cin.tie(0);",
+			"",
+			"    int T;",
+			"    cin >> T;",
+			"",
+			"    while (T--)",
+			"        fun();",
+			"}"
+		],
+		"description": "Multi-test template"
+	},
+	"Debug include": {
+		"prefix": ["dbg", "debug"],
+		"body": [
+			"#ifndef ONLINE_JUDGE",
+			"#include \"DEBUG.cpp\"",
+			"#else",
+			"#define debug(...)",
+			"#define debugArr(...)",
+			"#endif"
+		],
+		"description": "Local debug header, disabled on the judge"
+	},
+	"Pragma": {
+		"prefix": ["pragma", "pargma"],
+		"body": [
+			"#pragma GCC optimize(\"O3,unroll-loops\")",
+			"#pragma GCC target(\"avx2\")"
+		],
+		"description": "Optimization pragmas"
+	},
+	"Grid directions (4)": {
+		"prefix": "dxdy",
+		"body": [
+			"const int dx[] = {1, -1, 0, 0};",
+			"const int dy[] = {0, 0, 1, -1};"
+		],
+		"description": "4-direction arrays"
+	},
+	"Grid directions (8)": {
+		"prefix": "dxdy8",
+		"body": [
+			"const int dx[] = {1, 1, 1, 0, 0, -1, -1, -1};",
+			"const int dy[] = {1, 0, -1, 1, -1, 1, 0, -1};"
+		],
+		"description": "8-direction arrays"
+	},
+	"priority queue": {
+		"prefix": ["pqint"],
+		"body": ["priority_queue<int>"]
+	},
+	"vector": {
+		"prefix": ["vint"],
+		"body": ["vector<int>"]
+	},
+	"pair": {
+		"prefix": ["pii"],
+		"body": ["pair<int, int>"]
+	},
+	"Min priority queue": {
+		"prefix": ["pqmin"],
+		"body": ["priority_queue<int, vector<int>, greater<int>>"],
+		"description": "Min-heap of int"
+	},
+	"Sort": {
+		"prefix": "sortall",
+		"body": ["ranges::sort(a);"],
+		"description": "ranges::sort"
+	},
+	"Sort descending": {
+		"prefix": ["sortalld"],
+		"body": ["ranges::sort(a, greater<>());"],
+		"description": "ranges::sort descending"
+	},
+	"Reverse": {
+		"prefix": ["revall"],
+		"body": ["ranges::reverse(a);"],
+		"description": "ranges::reverse"
+	}
+}
