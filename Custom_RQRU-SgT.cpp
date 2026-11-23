@@ -135,3 +135,4 @@ struct CustomMerge{
     }
 };
 
+// CustomSegTree<Node, CustomMerge> st(a);
