@@ -56,4 +56,5 @@ Node mergeNode(Node L, Node R) {
     };
 }
 
-// auto st = makeCustomSeg(a, ID, mergeNode);
+// const Node Ident{};
+// auto st = makeCustomSeg(a, Ident, mergeNode);
