@@ -1,12 +1,5 @@
 //https://github.com/AbdoSleem552/competitive-programming-template
 
-#include <iostream>
-#include <string>
-#include <vector>
-#include <cstring>
-
-using namespace std;
-
 /*
  * Single-Pass Digit DP Template
  * 
