@@ -1,1 +1,3 @@
 https://github.com/AbdoSleem552/competitive-programming-template/tree/main/geometry
+// Abdo + Belal Elbably
+https://github.com/AbdoSleem552/cp-geometry-template/tree/main 
